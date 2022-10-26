@@ -1,10 +1,19 @@
 # Loan Repayment Predictions
 
 ## Project Topic
-This project will be focused on identifying/predicting whether a particpant might default on their loan.  We are using this topic to better understand the loan approval process and the factors used to make a decision when granting a loan.
+This project will be focused on identifying/predicting whether a participant might default on their loan. The goal of using this topic is to create a Supervised Machine Learning model trained on the loan status of the applicant data.  Then we can use that model to predict whether a future applicant should be approved based on their specific input features.  Loan Prediction was selected as our topic so we can have a better understanding of the loan approval process.  We wanted to explore what factors are most important when deciding to grant a loan and if there are any similar characteristics of applicants who default.
+
 
 ## Description of Data
-The data used is from Lending Club for all loans issued in 2017, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The CSV file contains 122 columns and 96,779 rows.
+The data used is from Lending Club for all loans issued in 2017, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The initial CSV file contained 122 columns and 96,779 rows.
+
+## Questions we want to answer
+What are the main factors to consider when approving a loan?
+Do Joint Applicants have an easier time getting approved for loans than Individual applicants? Are they more likely to stay current?
+How does the credit grade affect the interest rate?
+What’s the most common type of loan taken?
+What type of loan has is the most risky?
+What is the correlation between Debt to Income Ratio(DTI) and Annual Income?
 
 ## Logistic Regression
 We decided to use logistic regresion because it predicts binary outcomes, meaning that there are only two possible outcomes. When we try to predict our data their are only two possible outcomes. The participant either defaulted on their loan or they didn't. We will use multiple variables from the dataset, such as the applicant's annual income, and application type are assessed to arrive at one of two answers: Approved or Denied. 
