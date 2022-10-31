@@ -1,3 +1,5 @@
+![final_project_slide](https://user-images.githubusercontent.com/106286533/199125590-cc2f0368-c070-420e-b6fa-298e178aa355.png)
+
 # Loan Repayment Predictions
 
 ## Project Topic
