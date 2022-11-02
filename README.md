@@ -32,13 +32,13 @@ A logistic regression model analyzes the available data, and when presented with
 We will be using a Supervised Learning Machine Model to make our predictions as we have a known outcome. Since classification is used to predict discrete outcomes.  The data will be put into a Classification algorithm to learn the patterns based on factors such as income, credit status and more. And if the model is successful it should be able to make accurate predictions on loan repayments. 
 
 ## Decision Trees 
-We decided to use decision trees since we will be deciding whether a client will default on their loan. Decision trees are best utililized when encoding a series of true/false questions that are represented by a series of if/else statements. Decision trees are one of the most interpretable models, as they provide a clear representation of how the model works. Which will give us a better insight on paticipants that might default on their loan. 
+We decided to use decision trees since we will be deciding whether a client will default on their loan. Decision trees are best utililized when encoding a series of true/false questions that are represented by a series of if/else statements. Decision trees are one of the most interpretable models, as they provide a clear representation of how the model works. Which will give us a better insight on participants that might default on their loan. 
 
 
 ## Database 
-We will be using a SQL database to import the data into tables for manipulation.  That database will be connected to an S3 bucket.  Those tables will then be exported back into separate CSV files and used for visualizations in Tableau.
+We will be using a SQL database to import the data into tables for manipulation.  That database will be connected to an S3 bucket.  Those tables were then exported back into separate CSV files and used for visualizations.  Tableau was linked to the database and a dashboard was created.  To view Click here
 
-## Technologies to be used
+## Technologies used
 Python
 
 Supervised Machine Learning - Classification, Logistical Regression
@@ -47,9 +47,6 @@ SQL
 
 Tableau
 
-HTML
-
-Javascript
 
 ## Team Roles
 Square - Jeremy
