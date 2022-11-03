@@ -36,7 +36,7 @@ We decided to use decision trees since we will be deciding whether a client will
 
 
 ## Database 
-We will be using a SQL database to import the data into tables for manipulation.  That database will be connected to an S3 bucket.  Those tables were then exported back into separate CSV files and used for visualizations.  Tableau was linked to the database and a dashboard was created.  To view Click here
+We will be using a SQL database to import the data into tables for manipulation.  That database will be connected to an S3 bucket.  Those tables were then exported back into separate CSV files and used for visualizations.  Tableau was linked to the database and a dashboard was created.  To view [Click here(https://public.tableau.com/views/LoanStatisticsDraft/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Technologies used
 Python
