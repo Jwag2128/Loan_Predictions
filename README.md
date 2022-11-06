@@ -47,14 +47,37 @@ We decided to use decision trees since we will be deciding whether a client will
 
 
 ## Database 
-We will be using a SQL database to import the data into tables for manipulation.  That database will be connected to an S3 bucket.  Those tables were then exported back into separate CSV files and used for visualizations.  Tableau was linked to the database and a dashboard was created.  To view [Click here](https://public.tableau.com/views/LoanStatisticsDraft/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+We will be using a SQL database to import the data into tables for manipulation.  That database will be connected to an S3 bucket.  Those tables were then exported back into separate CSV files and used for visualizations.  
+
+## Dashboard
+Tableau was used to create our visualizations.  To view the dashboard [Click here](https://public.tableau.com/views/LoanStatisticsDraft/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+### Pie Chart was used to show the 3 types of Loan Applications.  The overwhelming majority were Individual loans(92,346), then Joint Applicants(4,407) and only a 26 were Direct Pay.
+
+![pie_chart](https://user-images.githubusercontent.com/106286533/200184751-4bdbd595-005e-4633-a512-dbf0fdddbe06.png)
+
+### A Map was created to show the number of loans taken in each state.  An interactice filter can be used to view by loan type.  As you hover over each state it will also display the Average Annual Income of the applicants.
+
+![loan_stats_map](https://user-images.githubusercontent.com/106286533/200184624-3694ae2d-0323-46b9-8a61-9043cfae2821.png)
+
+### Bar Charts were utilized to show the Loan Purpose type counts and the number of loans that were delinquent for each loan type.
+
+Debt Consolidation was by far the largest type of loan taken with 54,811.
+![loan_purpose_bar](https://user-images.githubusercontent.com/106286533/200184930-3eceb756-648a-462e-82ce-81d7acc4ae56.png)
+
+The Delinquencies by Loan Type is a stacked bar, which by default is filtered to and displays Late(16-30 days) and Late(31-120 days).  It can be filtered to the other account status types as well.
+
+![loan_type_delin](https://user-images.githubusercontent.com/106286533/200185090-36fb0071-3333-4916-9297-afb1f8980870.png)
+
 
 ## Technologies used
 Python
 
-Supervised Machine Learning - Classification, Logistical Regression
+Supervised Machine Learning - Classification, Logistical Regression, Decision Trees
 
 SQL
+
+AWS - S3 Bucket
 
 Tableau
 
