@@ -6,7 +6,9 @@
 This project will be focused on identifying/predicting whether a participant might default on their loan. The goal of using this topic is to create a Supervised Machine Learning model trained on the loan status of the applicant data.  Then we can use that model to predict whether a future applicant should be approved based on their specific input features.  As many individuals and families struggle with financial decisions, we chose Loan Prediction as our topic so we can have a better understanding of the loan approval process.  We wanted to explore what factors are most important when deciding to grant a loan and if there are any similar characteristics of applicants who default. 
 
 ## Description of Data
-The data used is from Lending Club for all loans issued in 2017, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The initial CSV file contained 122 columns and 96,779 rows.  This included loan information for applicants in 49 states and had columns containing the type of loan as well as if it were a Joint or Individual account.  The dataset also had features such as Debt to Income Ratio, number of other credit accounts the applicant had, any delinquency records, employment status, annual income and much more.
+The data used was found on data.world and is from Lending Club for all loans issued in 2017, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The initial CSV file contained 122 columns and 96,779 rows.  This included loan information for applicants in 49 states and had columns containing the type of loan as well as if it were a Joint or Individual account.  The dataset also had features such as Debt to Income Ratio, number of other credit accounts the applicant had, any delinquency records, employment status, annual income and much more.
+
+Dataset [Link](https://github.com/Jwag2128/Loan_Predictions/blob/main/DataFiles/prelim_loans_data.zip)
 
 ## Questions we want to answer
 What are the main factors to consider when approving a loan?
@@ -21,6 +23,15 @@ What type of loan has is the most risky?
 
 What is the correlation between Debt to Income Ratio(DTI) and Annual Income?
 
+## Data Exploration
+[EDA Notebook](https://github.com/Jwag2128/Loan_Predictions/blob/main/Jupyter_NB_files/Loans_EDA.ipynb)
+
+![Data_Explor](https://user-images.githubusercontent.com/106286533/200181299-a5f2ced7-515b-4ecb-9e3b-9ab221cba76e.png)
+
+## Data Cleaning
+[Data Cleaning Notebook](https://github.com/Jwag2128/Loan_Predictions/blob/main/Jupyter_NB_files/Loans_Data_Preprocessing.ipynb)
+
+![Data_Clean](https://user-images.githubusercontent.com/106286533/200181307-338068e3-df1f-42d1-9ab8-670f4d6d4109.png)
 
 ## Logistic Regression
 We decided to use logistic regresion because it predicts binary outcomes, meaning that there are only two possible outcomes. When we try to predict our data their are only two possible outcomes. The participant either defaulted on their loan or they didn't. We will use multiple variables from the dataset, such as the applicant's annual income, and application type are assessed to arrive at one of two answers: Approved or Denied. 
