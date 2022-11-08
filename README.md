@@ -69,6 +69,9 @@ The Delinquencies by Loan Type is a stacked bar, which by default is filtered to
 
 ![loan_type_delin](https://user-images.githubusercontent.com/106286533/200185090-36fb0071-3333-4916-9297-afb1f8980870.png)
 
+Joint loans did not contribute a significant amount to delinquencies as shown in this bar chart.
+
+![Individual_Joint_delin](https://user-images.githubusercontent.com/106286533/200445709-9fc29d85-2174-4d54-a218-641d7096fdd2.png)
 
 ## Technologies used
 Python
