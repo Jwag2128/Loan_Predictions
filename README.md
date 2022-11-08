@@ -77,6 +77,13 @@ Joint loans did not contribute a significant amount to delinquencies as shown in
 ## Future Enhancements
 ### How does the credit grade affect the interest rate?
 
+### DTI and Annual Income correlating to the approved loan amount
+
+### Develop a Web Application 
+Input fields for user to enter the applicants statistics.
+Feed those input fields into Machine Learning Model.
+Return a decision based on the input
+
 ## Technologies used
 Python
 
