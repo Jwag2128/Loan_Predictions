@@ -50,7 +50,7 @@ We decided to use decision trees since we will be deciding whether a client will
 We will be using a SQL database to import the data into tables for manipulation.  That database will be connected to an S3 bucket.  Those tables were then exported back into separate CSV files and used for visualizations.  
 
 ## Dashboard
-Tableau was used to create our visualizations.  To view the dashboard [Click here](https://public.tableau.com/views/LoanStatisticsDraft/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+Tableau was used to create our visualizations.  To view the dashboard [Click here](https://public.tableau.com/views/LoanStatisticsProject/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ### Pie Chart was used to show the 3 types of Loan Applications.  The overwhelming majority were Individual loans(92,346), then Joint Applicants(4,407) and only a 26 were Direct Pay.
 
