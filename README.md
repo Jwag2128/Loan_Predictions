@@ -15,8 +15,6 @@ What are the main factors to consider when approving a loan?
 
 Do Joint Applicants have an easier time getting approved for loans than Individual applicants? Are they more likely to stay current?
 
-How does the credit grade affect the interest rate?
-
 What’s the most common type of loan taken?
 
 What type of loan has is the most risky?
@@ -47,7 +45,10 @@ We decided to use decision trees since we will be deciding whether a client will
 
 
 ## Database 
-We will be using a SQL database to import the data into tables for manipulation.  That database will be connected to an S3 bucket.  Those tables were then exported back into separate CSV files and used for visualizations.  
+A SQL database was created using pgAdmin to import the data into tables for manipulation.  That database was then connected to an S3 bucket using AWS RDS.  The tables in the database fed into the Machine Learning model and were used to create the visualizations in Tableau.
+
+![Loan_Predict](https://user-images.githubusercontent.com/106286533/200448866-1852195f-2186-43be-92db-96fb346186d6.png) <img width="427" alt="Join_Table" src="https://user-images.githubusercontent.com/106286533/200448894-944d3e38-9b00-4a47-a927-50c712ba8393.png">
+
 
 ## Dashboard
 Tableau was used to create our visualizations.  To view the dashboard [Click here](https://public.tableau.com/views/LoanStatisticsProject/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
@@ -72,6 +73,9 @@ The Delinquencies by Loan Type is a stacked bar, which by default is filtered to
 Joint loans did not contribute a significant amount to delinquencies as shown in this bar chart.
 
 ![Individual_Joint_delin](https://user-images.githubusercontent.com/106286533/200445709-9fc29d85-2174-4d54-a218-641d7096fdd2.png)
+
+## Future Enhancements
+### How does the credit grade affect the interest rate?
 
 ## Technologies used
 Python
