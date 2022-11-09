@@ -38,14 +38,26 @@ A logistic regression model analyzes the available data, and when presented with
 
 
 ## Machine Learning
+[Model Notebook](https://github.com/Jwag2128/Loan_Predictions/blob/main/Jupyter_NB_files/Loan_stats_resampling.ipynb)
+
 We will be using a Supervised Learning Machine Model to make our predictions as we have a known outcome. Since classification is used to predict discrete outcomes.  The data will be put into a Classification algorithm to learn the patterns based on factors such as income, credit status and more. And if the model is successful it should be able to make accurate predictions on loan repayments. 
 
 ## Decision Trees 
+[Decision Tree Notebook](https://github.com/Jwag2128/Loan_Predictions/blob/main/Jupyter_NB_files/Decision_Trees.ipynb)
+
 We decided to use decision trees since we will be deciding whether a client will default on their loan. Decision trees are best utililized when encoding a series of true/false questions that are represented by a series of if/else statements. Decision trees are one of the most interpretable models, as they provide a clear representation of how the model works. Which will give us a better insight on participants that might default on their loan. 
 
+## Results of model
+The Decision Tree model had the highest accuracy score of 98.4%.
+
+Smote Oversampling, Undersampling and Random Forest models all had accuracy scores between 50%-60%.
+
+![Decision_Tree_acc_score](https://user-images.githubusercontent.com/106286533/200709304-188dcdf7-fa75-4af4-82e8-54cf5004395a.png)
 
 ## Database 
 A SQL database was created using pgAdmin to import the data into tables for manipulation.  That database was then connected to an S3 bucket using AWS RDS.  The tables in the database fed into the Machine Learning model and were used to create the visualizations in Tableau.
+
+Database [Machine Learning File](https://loanpredictions-bucket.s3.amazonaws.com/Loans_Data_ML.csv)
 
 ![Loan_Predict](https://user-images.githubusercontent.com/106286533/200448866-1852195f-2186-43be-92db-96fb346186d6.png) <img width="427" alt="Join_Table" src="https://user-images.githubusercontent.com/106286533/200448894-944d3e38-9b00-4a47-a927-50c712ba8393.png">
 
@@ -81,7 +93,9 @@ Joint loans did not contribute a significant amount to delinquencies as shown in
 
 ### Develop a Web Application 
 Input fields for user to enter the applicants statistics.
+
 Feed those input fields into Machine Learning Model.
+
 Return a decision based on the input
 
 ## Technologies used
@@ -95,6 +109,7 @@ AWS - S3 Bucket
 
 Tableau
 
+Google Slides [Presentation Link](https://docs.google.com/presentation/d/1y-MsmSD6sxZDgllqQBENpsJaXV0eeyBUot1tj06yYmE/edit?usp=sharing)
 
 ## Team Roles
 Square - Jeremy
